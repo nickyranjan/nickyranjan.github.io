@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    font-family:sans-serif;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+
+.contact-me ul li {
+    display: inline-block;
+    margin-left: 30px;
+    padding: 50px;
+    position: relative;
+    padding-top: 63px;
+}
+
+.contact-me ul li a{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.click{
+    transition: border-bottom, 0.5s, color 0.5s;
+}
+
+.gray-bg{
+    background-color:#ebebeb;
+}
+
+.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height:100%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.des{
+     text-align: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.description{
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.description h1 {
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+    font-weight: 350;
+    font-size: 5.5rem;
+    margin: 3rem 0 0.5rem 0;
+  }
+
+.description h2 {
+    font: Helvetica Neue;
+    font-size: 2.0rem;
+    margin: 1rem 0;
+    margin-left: 4px;
+  }
+/*
+.image{
+    border: 1px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.image img{
+    width: 350px;
+    height: 350px;
+    border-radius: 70%;
+    float:left;
+}*/
+
+.about-me{
+    align-content: center;
+    vertical-align: middle;
+}
+
+.heading{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.heading h1{
+    font-weight: 200;
+    font-size: 5rem;
+}
+
+.one{
+    padding-top: 40px;
+    padding-left: 225px;
+    padding-right: 225px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.two{
+    padding-top:10px;
+    padding-left: 80px;
+}
+
+.two img{
+    width: 370px;
+    height: 370px;
+}
+
+.three{
+    padding-right: 80px;
+    padding-top: 10px;
+}
+
+.three img{
+        margin: 40px;
+        width: 270px;
+        height: 270px;
+}
+
+.text {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.experience{
+
+    text-align: center;
+    align-content: center;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h1{
+    font-weight: 200;
+    font-size: 5rem;
+}
+
+
+.experience-logo{
+    margin-top: 45px;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    
+.experience-logo.FBI{
+    display: block;
+    background-image: url(https://ctc.usma.edu/app/uploads/2018/05/fbi.jpg);
+    background-color: #ebebeb;
+    background-size:cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    width: 250px;
+    margin-left: 100px;    
+    height: 250px;
+}
+
+
+.description-F{
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+    width:70%
+}
+
+.experience-logo.GILD{
+    display: block;
+    background-image: url(https://g.foolcdn.com/art/companylogos/square/GILD.png);
+    background-color: #ebebeb;
+    background-size:cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    width: 250px;
+    margin-left: 100px;    
+    height: 250px;
+}
+
+.description-G{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+    width:70%
+}
+
+.gild{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.old {
+   
+   /* background-image: url(https://g.foolcdn.com/art/companylogos/square/GILD.png);
+    background-color: #ebebeb;
+    background-size:cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;*/
+}
+
+
+.skills{
+    
+    align-content: center;
+    vertical-align: middle;
+}
+
+.skills h1{
+    font-weight: 200;
+    font-size: 5rem;
+}
+
+.s1 h1{
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 350;
+    align-content: center;
+    vertical-align: middle;
+    
+}
+
+.s1{
+    padding-left: 40px;
+    text-align: center;
+    padding-top: 40px;
+    list-style: none;
+}
+
+.s1 ul{
+        padding-top: 40px;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 3.0;
+        list-style: none;
+
+}
+
+.s2{
+    padding-top: 40px;
+    vertical-align: middle;
+    text-align: center;
+    list-style: none;
+}
+
+.s2 ul{
+        padding-top: 40px;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 3.0;
+        list-style: none;
+
+}
+
+.s2 h1{
+    text-decoration: underline;
+    font-weight: 350;
+    font-size: 30px;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.s3{
+    padding-top: 40px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.s3 ul{
+        padding-top: 40px;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 3.0;
+        list-style: none;
+}
+
+.s3 h1{
+    text-decoration: underline;
+    font-weight: 350;
+    font-size: 30px;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.projects{
+    text-align: center;    
+}
+
+.projects h1{
+    font-weight: 200;
+    font-size: 5rem;
+}
+
+.p1{
+        padding-top: 50px;
+
+}
+
+.p2{
+        padding-top: 50px;
+
+}
+
+.p3{
+        padding-top: 50px;
+
+}
+
+.d1{
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right:200px;
+    font-size: 20px;
+}
+
+.d2{
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right:200px;
+    font-size: 20px;
+}
+
+.d3{
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right:200px;
+    font-size: 20px;
+}
+
+.publications{
+    text-align: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.publications h1{
+    font-weight: 200;
+    font-size: 5rem;
+}
