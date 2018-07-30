@@ -35,16 +35,25 @@ body {
 }
 
 .container-fluid {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height:100%;
+    padding-right: 15px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px)
+.container-fluid {
+    width: 450px;
 }
 
 .row-centered {
     text-align:center;
+}
+
+@media (max-width: 767px)
+.row-centered {
+    margin-left: 5%;
 }
 
 .des{
@@ -119,7 +128,7 @@ body {
 }
 
 .two img{
-    width: 370px;
+    max-width: 100%;
     height: 370px;
 }
 
@@ -130,7 +139,7 @@ body {
 
 .three img{
         margin: 40px;
-        width: 270px;
+        max-width: 100%;
         height: 270px;
 }
 
@@ -166,47 +175,50 @@ body {
     display: block;
     background-image: url(https://ctc.usma.edu/app/uploads/2018/05/fbi.jpg);
     background-color: #ebebeb;
-    background-size:cover;
+    background-size:contain;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     width: 250px;
+    max-width: 100%;
     margin-left: 100px;    
     height: 250px;
 }
 
-
 .description-F{
-    padding-top: 80px;
+    padding-bottom: 10px;
+    padding-top: 45px;
     padding-left: 100px;
     padding-right: 100px;
     vertical-align: middle;
     text-align: center;
     line-height: 1.5;
     font-size: 20px;
-    width:70%
+    max-width: 100%;
 }
 
 .experience-logo.GILD{
     display: block;
     background-image: url(https://g.foolcdn.com/art/companylogos/square/GILD.png);
     background-color: #ebebeb;
-    background-size:cover;
+    background-size:contain;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
-    width: 250px;
+        width: 250px;
+    max-width: 100%;
     margin-left: 100px;    
     height: 250px;
 }
 
 .description-G{
-    padding-top: 100px;
+    padding-bottom: 10px;
+    padding-top: 45px;
     padding-left: 100px;
     padding-right: 100px;
-    vertical-align: middle;
     text-align: center;
     line-height: 1.5;
     font-size: 20px;
-    width:70%
+    max-width: 100%;
+
 }
 
 .gild{
