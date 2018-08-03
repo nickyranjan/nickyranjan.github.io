@@ -84,20 +84,6 @@ body {
     margin: 1rem 0;
     margin-left: 4px;
   }
-/*
-.image{
-    border: 1px solid black;
-    border-radius: 50%;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.image img{
-    width: 350px;
-    height: 350px;
-    border-radius: 70%;
-    float:left;
-}*/
 
 .about-me{
     align-content: center;
@@ -148,8 +134,12 @@ body {
     font-size: 20px;
 }
 
-.experience{
+@media only screen and (max-width: 767px) and (min-width: 480px)
+.container {
+    width: 450px;
+}
 
+.experience{
     text-align: center;
     align-content: center;
 }
@@ -172,67 +162,62 @@ body {
 }
     
 .experience-logo.FBI{
+    background-position:center;
+    align-items: center;
+    justify-content: flex-start;
     display: block;
     background-image: url(https://ctc.usma.edu/app/uploads/2018/05/fbi.jpg);
     background-color: #ebebeb;
     background-size:contain;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
-    width: 250px;
     max-width: 100%;
-    margin-left: 100px;    
     height: 250px;
 }
 
 .description-F{
-    padding-bottom: 10px;
-    padding-top: 45px;
-    padding-left: 100px;
-    padding-right: 100px;
     vertical-align: middle;
     text-align: center;
-    line-height: 1.5;
-    font-size: 20px;
     max-width: 100%;
 }
 
+.F{
+    padding-top: 100px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
 .experience-logo.GILD{
+    background-position:center;
+    justify-content: flex-start;
     display: block;
-    background-image: url(https://g.foolcdn.com/art/companylogos/square/GILD.png);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIr0O_zeq6mrga2b4LP6W3E-nm2w88uuZnMuVVVOBEuE2d5uu2);
     background-color: #ebebeb;
     background-size:contain;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
-        width: 250px;
-    max-width: 100%;
-    margin-left: 100px;    
+    max-width: 100%;  
     height: 250px;
+    margin: auto;
+}
+
+.experience-logo.GILD img{
+    width: 90px;
+    height: 90px;
+    margin: auto;    
+    display: block;
 }
 
 .description-G{
-    padding-bottom: 10px;
-    padding-top: 45px;
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
-    line-height: 1.5;
-    font-size: 20px;
-    max-width: 100%;
-
-}
-
-.gild{
+    padding-top: 100px;
     vertical-align: middle;
-    display: inline-block;
+    text-align: center;
+    max-width: 100%;
 }
 
-.old {
-   
-   /* background-image: url(https://g.foolcdn.com/art/companylogos/square/GILD.png);
-    background-color: #ebebeb;
-    background-size:cover;
-    background-blend-mode: multiply;
-    background-repeat: no-repeat;*/
+.G{
+     line-height: 1.5;
+    font-size: 20px;
 }
 
 
