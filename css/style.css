@@ -102,34 +102,58 @@ body {
 
 .one{
     padding-top: 40px;
-    padding-left: 225px;
-    padding-right: 225px;
+    margin-right: auto;
+    margin-left:auto;
     vertical-align: middle;
     display: inline-block;
 }
 
 .two{
+    background-position:center;
+    align-items: center;
+    justify-content: flex-start;
+    display: block;
+    background-image: url(http://www.ruggersedge.com/wp-content/uploads/2017/07/UCSD-logo.png);
+    background-size:contain;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 250px;
+    margin: auto;
+    /*
     padding-top:10px;
     padding-left: 80px;
+    */
 }
 
-.two img{
+/*.two img{
     max-width: 100%;
     height: 370px;
-}
+}*/
 
 .three{
-    padding-right: 80px;
-    padding-top: 10px;
+    background-position:center;
+    justify-content: flex-start;
+    display: block;
+    background-image: url(https://ctc.usma.edu/app/uploads/2018/05/fbi.jpg);
+    background-size:contain;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    max-width: 100%;  
+    height: 250px;
+    margin: auto;
 }
 
+/*
 .three img{
         margin: 40px;
         max-width: 100%;
         height: 270px;
-}
+}*/
 
 .text {
+    padding-left: 25px;
+    padding-right: 25px;
     line-height: 1.5;
     font-size: 20px;
 }
@@ -201,18 +225,12 @@ body {
     margin: auto;
 }
 
-.experience-logo.GILD img{
-    width: 90px;
-    height: 90px;
-    margin: auto;    
-    display: block;
-}
-
 .description-G{
-    padding-top: 100px;
+    padding-top: 75px;
     vertical-align: middle;
     text-align: center;
     max-width: 100%;
+    margin-bottom: 25px;
 }
 
 .G{
