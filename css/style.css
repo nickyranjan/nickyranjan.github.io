@@ -98,7 +98,7 @@ body {
 }
 
 .heading h1{
-    font-weight: 200;
+    font-weight: 350;
     font-size: 5rem;
 }
 
@@ -120,18 +120,9 @@ body {
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     max-width: 100%;
-    height: 250px;
+    height: 300px;
     margin: auto;
-    /*
-    padding-top:10px;
-    padding-left: 80px;
-    */
 }
-
-/*.two img{
-    max-width: 100%;
-    height: 370px;
-}*/
 
 .three{
     background-position:center;
@@ -169,7 +160,7 @@ body {
 }
 
 .title h1{
-    font-weight: 200;
+    font-weight: 350;
     font-size: 5rem;
 }
 
@@ -196,6 +187,7 @@ body {
 }
 
 .description-F{
+    padding-right: 50px;
     vertical-align: middle;
     text-align: center;
     max-width: 100%;
@@ -222,6 +214,7 @@ body {
 }
 
 .description-G{
+    padding-right: 50px;
     padding-bottom: 50px;
     padding-top: 75px;
     vertical-align: middle;
@@ -244,7 +237,7 @@ body {
 }
 
 .skills h1{
-    font-weight: 200;
+    font-weight: 350;
     font-size: 5rem;
 }
 
@@ -326,7 +319,7 @@ body {
 }
 
 .projects h1{
-    font-weight: 200;
+    font-weight: 350;
     font-size: 5rem;
 }
 
@@ -375,6 +368,6 @@ body {
 }
 
 .publications h1{
-    font-weight: 200;
+    font-weight: 350;
     font-size: 5rem;
 }
