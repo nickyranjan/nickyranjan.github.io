@@ -344,7 +344,7 @@ body {
 }
 
 .letsd{
-    padding-top: 30px;
+    padding-top: 20px;
     line-height: 1.5;
     font-size: 20px;
     padding-bottom: 40px;
@@ -380,4 +380,10 @@ body {
         margin: 0 auto;        
         justify-content: center;
         display: block;
+}
+
+.cyberd{
+    padding-top: 20px;
+    line-height: 1.5;
+    font-size: 20px;
 }
