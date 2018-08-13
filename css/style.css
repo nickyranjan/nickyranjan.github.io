@@ -374,7 +374,6 @@ body {
 
 .pub1{
         float: none;
-        float: none;
         margin: 0 auto;        
         background-position:center;
         align-items: center;
@@ -387,4 +386,11 @@ body {
         max-width: 100%;
         height: auto;
         margin: auto;
+}
+
+.sum1{
+        float: none;
+        margin: 0 auto;        
+        justify-content: center;
+        display: block;
 }
