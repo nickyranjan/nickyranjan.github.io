@@ -63,6 +63,7 @@ body {
 }
 
 .description{
+    padding-bottom: 20px;
     text-align: center;
     align-content: center;
     vertical-align: middle;
@@ -324,43 +325,29 @@ body {
 }
 
 .p1{
+        float: none;
+        margin: 0 auto;        
+        background-position:center;
+        align-items: center;
+        justify-content: center;
+        display: block;
         padding-top: 50px;
 
 }
 
-.p2{
-        padding-top: 50px;
-
-}
-
-.p3{
-        padding-top: 50px;
-
-}
 
 .d1{
-    padding-top: 50px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-    padding-bottom: 50px;
+        float: none;
+        margin: 0 auto;        
+        justify-content: center;
+        display: block;
 }
 
-.d2{
-    padding-top: 50px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+.letsd{
+    padding-top: 30px;
+    line-height: 1.5;
     font-size: 20px;
-}
-
-.d3{
-    padding-top: 50px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
+    padding-bottom: 40px;
 }
 
 .publications{
