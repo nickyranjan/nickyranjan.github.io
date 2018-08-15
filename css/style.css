@@ -26,9 +26,6 @@ body {
     text-transform: uppercase;
 }
 
-.click{
-    transition: border-bottom, 0.5s, color 0.5s;
-}
 
 .gray-bg{
     background-color:#ebebeb;
