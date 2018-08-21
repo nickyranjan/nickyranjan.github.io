@@ -55,7 +55,6 @@ body {
 
 @media (max-width: 767px)
 .row-centered {
-    margin-left: 5%;
 }
 
 .des{
@@ -254,7 +253,7 @@ body {
 }
 
 .s1{
-    margin-left: auto;;
+    margin-left: auto;
     text-align: center;
     padding-top: 40px;
     list-style: none;
