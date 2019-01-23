@@ -20,7 +20,7 @@ body {
 
 @media only screen and (max-width: 767px) {
     .navigation-bar li{ 
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 }
 
