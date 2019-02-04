@@ -127,6 +127,31 @@ body {
     vertical-align: middle;
 }
 
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.fab:hover{
+    animation:bounce 1.2s;
+}
+
+.fas:hover{
+    animation:bounce 1.2s;
+}
+
 .description{
     padding-top: 80px;
     padding-bottom: 20px;
