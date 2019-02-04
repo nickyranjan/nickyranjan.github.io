@@ -6,7 +6,7 @@
 
 html, body {
   height: 100%; /*Fixes the height to 100% of the viewport*/
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -37,7 +37,10 @@ body {
 }
 
 .menu a {
+    
   color: white;
+    font-size: 13px;
+    font-weight: 100;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -52,6 +55,7 @@ body {
 
 
 .navigation-bar {
+
     z-index: 10;
     width: 100%;  /* i'm assuming full width */
     height: 80px; /* change it to desired width */
@@ -63,6 +67,7 @@ body {
 }
 
 .navigation-bar a {
+
     border-radius: 7%;
     display: inline-block;
     padding-left: 30px;
@@ -73,6 +78,7 @@ body {
 
 
 .navigation-bar li {
+
    display: inline-block;
 
 }
@@ -480,6 +486,23 @@ body {
 }
 
 .sum2{
+        float: none;
+        margin: 0 auto;        
+        justify-content: center;
+        display: block;
+}
+
+
+.pub3{
+        float: none;
+        margin: 0 auto;        
+        background-position:center;
+        align-items: center;
+        justify-content: center;
+        display: block;
+}
+
+.sum3{
         float: none;
         margin: 0 auto;        
         justify-content: center;
