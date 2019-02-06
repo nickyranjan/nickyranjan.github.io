@@ -46,20 +46,19 @@ body {
 }
 
 .menu a:hover{
-    background-color: rgba(203,197, 197, 0.19);
+    background-color: rgba(106, 99, 99, 0.19);
 }
 
 .logo{
     
 }
 
-
 .navigation-bar {
 
     z-index: 10;
     width: 100%;  /* i'm assuming full width */
     height: 80px; /* change it to desired width */
-    background-color: #382a2a; /* change to desired color */
+    background-color: #3b2c2c; /* change to desired color */
     position: fixed;
     overflow: hidden;
     text-align: center;
@@ -82,9 +81,6 @@ body {
    display: inline-block;
 
 }
-
-
-
 
 .logo {
     display: inline-block;
@@ -145,11 +141,11 @@ body {
 }
 
 .fab:hover{
-    animation:bounce 1.2s;
+    animation:bounce 2.2s;
 }
 
 .fas:hover{
-    animation:bounce 1.2s;
+    animation:bounce 2.2s;
 }
 
 .description{

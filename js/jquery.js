@@ -11,6 +11,11 @@
  *
  * Date: 2016-05-20T17:17Z
  */
+$('#nav nav a').on('click', function(event) {
+    $(this).parent().find('a').removeClass('active');
+    $(this).addClass('active');
+});
+
 
 (function( global, factory ) {
 
