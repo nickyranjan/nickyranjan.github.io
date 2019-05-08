@@ -205,6 +205,7 @@ body {
     justify-content: flex-start;
     display: block;
     background-image: url("../images/UCSD.png");
+    background-size: 370px;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     max-width: 100%;
