@@ -18,10 +18,51 @@ body {
     overflow-x: hidden;
 }
 
+#showcase{
+    background-image: url("../images/landingpage.jpg");*/
+    background-color: #97AABD;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#showcase h1{
+    font-weight: 200;
+    font-size: 700%;
+}
+
+.button{
+    font-size: 110%;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button:hover{
+    color:#000000;
+    border:2px solid #22505c;
+}
+
 @media only screen and (max-width: 767px) {
     .navigation-bar li{ 
         font-size: 1.1rem;
     }
+    .button{
+        font-size: 90%;
+        padding: 7px 15px;
+    }
+    
+    #showcase h1{
+    font-weight: 200;
+    font-size: 300%;
+}
 }
 
 .menu{
@@ -38,11 +79,11 @@ body {
 
 .menu a {
     
-  color: white;
+    color: white;
     font-size: 13px;
     font-weight: 100;
-  text-decoration: none;
-  text-transform: uppercase;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .menu a:hover{
@@ -54,7 +95,8 @@ body {
 }
 
 .navigation-bar {
-
+    top:0;
+    left:0;
     z-index: 10;
     width: 100%;  /* i'm assuming full width */
     height: 80px; /* change it to desired width */
