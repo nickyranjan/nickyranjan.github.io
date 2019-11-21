@@ -58,7 +58,7 @@ body {
     z-index: 10;
     width: 100%;  /* i'm assuming full width */
     height: 80px; /* change it to desired width */
-    background-color: #3b2c2c; /* change to desired color */
+    background-color: #30302F; /* change to desired color */
     position: fixed;
     overflow: auto;
     white-space: nowrap;
@@ -70,7 +70,7 @@ body {
 
     border-radius: 7%;
     display: inline-block;
-    color: white;
+    color: ##646C79;
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
@@ -95,7 +95,7 @@ body {
 }
 
 .gray-bg{
-    background-color:#ebebeb;
+    background-color:#F4F4F2;;
 }
 
 .container-fluid {
@@ -280,7 +280,7 @@ body {
     justify-content: flex-start;
     display: block;
     background-image: url(https://img2.embroiderydesigns.com/StockDesign/XLarge/Mead_Artworks/pa1012a.jpg);
-    background-color: #ebebeb;
+    background-color: #F4F4F2;
     background-size:contain;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
@@ -289,6 +289,7 @@ body {
 }
 
 .description-F{
+    background-color: #F4F4F2;
     padding-right: 10px;
     vertical-align: middle;
     text-align: center;
@@ -306,7 +307,7 @@ body {
     justify-content: flex-start;
     display: block;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIr0O_zeq6mrga2b4LP6W3E-nm2w88uuZnMuVVVOBEuE2d5uu2);
-    background-color: #ebebeb;
+    background-color: #F4F4F2;
     background-size:contain;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
